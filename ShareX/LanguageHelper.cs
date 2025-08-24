@@ -137,6 +137,10 @@ namespace ShareX
                 case SupportedLanguage.Spanish:
                     icon = Resources.es;
                     break;
+                case SupportedLanguage.Thai:
+                    // TODO: add proper Thai flag resource
+                    icon = Resources.globe;
+                    break;
                 case SupportedLanguage.TraditionalChinese:
                     icon = Resources.tw;
                     break;
@@ -220,6 +224,9 @@ namespace ShareX
                     break;
                 case SupportedLanguage.Spanish:
                     cultureName = "es-ES";
+                    break;
+                case SupportedLanguage.Thai:
+                    cultureName = "th-TH";
                     break;
                 case SupportedLanguage.TraditionalChinese:
                     cultureName = "zh-TW";

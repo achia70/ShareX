@@ -92,6 +92,8 @@ namespace ShareX
         SimplifiedChinese,
         [Description("Español (Spanish)")]
         Spanish,
+        [Description("ภาษาไทย (Thai)")]
+        Thai,
         [Description("繁體中文 (Traditional Chinese)")]
         TraditionalChinese,
         [Description("Türkçe (Turkish)")]
